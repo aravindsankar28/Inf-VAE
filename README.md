@@ -11,13 +11,13 @@ for information diffusion prediction.
 Inf-VAE model covariance of diffusion behaviors with both social network structure and 
 temporal cascade evolution.
 Inf-VAE supports a wide range of graph neural network architectures
-as encoders and decoders, to model homophily in the social network. 
+as encoders and decoders, to model social homophily. 
 
 
 Note: Though Inf-VAE is designed to model diffusion behaviors in attributed social networks, 
 our benchmarking experiments are carried out on network datasets that do not contain user attributes.
 
-![DySAT: Dynamic Self-Attention Network](Inf-vae.png)
+![Inf-VAE: Influence Variational Autoencoder](Inf-VAE.png)
 
 
 ### Input Format
@@ -76,8 +76,7 @@ Note: The model is not deterministic. All the experimental results provided in t
 
 ```
 @inproceedings{sankar2020inf,
-  title = {Inf-VAE: A Variational Autoencoder Framework to Integrate
-Homophily and Influence in Diffusion Prediction},
+  title = {Inf-VAE: A Variational Autoencoder Framework to Integrate Homophily and Influence in Diffusion Prediction},
   author = {Sankar, Aravind and Zhang, Xinyang and Krishnan, Adit and Han, Jiawei},
   doi = {10.1145/3336191.3371811},
   booktitle = {Proceedings of the 13th International Conference on Web Search and Data Mining},  
