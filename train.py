@@ -24,6 +24,7 @@ today = datetime.today()
 log_file = LOG_DIR + '%s_%s_%s_%s.log' % (FLAGS.dataset.split(
  "/")[0], str(today.year), str(today.month), str(today.day))
 
+#--
 
 def predict(session, model, feed):
     """ Helper function to compute model predictions. """
